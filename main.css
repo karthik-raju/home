@@ -62,7 +62,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 @media(min-height: 400px){
 	.scroll-down{
-		top:20000%;
+		top:64%;
 	}
 }
 @media(max-height: 400px){
