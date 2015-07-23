@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .home{
 	height: 100vh;
 	background-color: #222;
-	background-image: url(cover.png);
+	background-image: url(file:///Users/karthikraju/Desktop/home/images/cover.png);
 	background-position:50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -25,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .overlay{
 	height: 100vh;
-	background-image: url(pattern.png);
+	background-image: url(file:///Users/karthikraju/Desktop/home/images/pattern.png);
 	background-repeat: repeat;
 	background-position: 50% 50%;
 	position: absolute;
@@ -42,7 +42,42 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	top: 45%;
 	text-align:center;
 	padding: 0 15px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+
 }
+
+.introduction h1{
+	font-size: 4em;
+}
+
+#link-wrapper{
+		margin-top:15vh;
+}
+
+/*For iPhone 4 and iPhone5*/
+
+@media(max-width:350px) and (orientation:portrait){
+	#link-wrapper{
+		margin-top:8vh;
+	}	
+
+	.introduction h1{
+	font-size: 3em;
+	}
+	
+}
+
+@media (max-height:325px) and (orientation:landscape){
+	#link-wrapper{
+		margin-top:8vh;
+	}	
+
+	.introduction{
+	 top: 20%;
+	}
+}
+
+
 
 .scroll-down{
 	border:2px solid #fff;
@@ -59,30 +94,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   	text-align: center;
 }
 
-@media(min-height: 400px){
-	.scroll-down{
-		top:64%;
-	}
-}
-@media(max-height: 400px){
-	.scroll-down{
-		top:56%;
-	}
-}
-/*scroll-y feature*/
-
 .scroll-down span{
 	 position: relative;
      color: #fff;
-     font-size: 35px;
+     font-size: 1.6em;
 }
 
 #inner{
-	top:-22px;
+	top:-15px;
 }
 
 .about-me{
-	height:40vh;	
-	
+	height:100vh;
 }
 
