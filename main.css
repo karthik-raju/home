@@ -1,0 +1,26 @@
+.home{
+	height: 100vh;
+	background-color: #222;
+	background-image: url(cover.png);
+	background-position:50% 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding:0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;	
+	 z-score:0;
+}
+
+.overlay{
+	height: 100vh;
+	background-image: url(pattern.png);
+	background-repeat: repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	background-attachment:fixed;
+	width: 100%;
+	z-score:1;
+
+}
