@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .home{
 	height: 100vh;
 	background-color: #222;
-	background-image: url(cover.png);
+	background-image: url(http://karthik-raju.github.io/home/images/cover.png);
 	background-position:50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -25,7 +25,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .overlay{
 	height: 100vh;
-	background-image: url(pattern.png);
+	background-image: url(http://karthik-raju.github.io/home/images/cover.png);
 	background-repeat: repeat;
 	background-position: 50% 50%;
 	position: absolute;
