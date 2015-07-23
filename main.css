@@ -48,5 +48,16 @@
 	text-align:center;
 	margin-left: auto ;
   	margin-right: auto ;
+  	text-align: center;
+}
+
+.scroll-down span{
+	 position: relative;
+     color: #fff;
+     font-size: 35px;
+}
+
+#inner{
+	top:-22px;
 }
 
