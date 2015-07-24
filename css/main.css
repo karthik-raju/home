@@ -28,7 +28,7 @@ body{
 }
 
 
-.social{
+.top{
 	position:absolute;
 	z-index:4;
 	margin-top:20px;
@@ -36,10 +36,23 @@ body{
 	right:20px;
 
 }
+
+.top img{
+	margin-left: 20px;
+}
+
 .social img{
 	width:18px;
-	margin-left:20px;
 }
+
+.bottom{
+	text-align: center;
+}
+
+.bottom img{
+	margin-left: 50px;
+}
+
 
 
 .overlay{
@@ -99,7 +112,7 @@ body{
 }
 
 .about-me{
-	height:1000vh;
+	height:auto;
 }
 
 .laptop-wrapper{
@@ -167,6 +180,22 @@ body{
 	margin-top: 15px;
 }
 
+.content-wrapper{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.content-wrapper h1{
+	font-size: 3em;
+	font-weight:300;
+	letter-spacing: 4px;
+	margin-bottom: 10px;
+}
+.content-wrapper p{
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
 
 /*For iPhone 4 and iPhone5 support*/
 
