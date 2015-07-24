@@ -1,9 +1,9 @@
 .md-macbook-pro {
   width: 55.3125em;
   height: 31.875em;
-  font-size:6px;
-  margin-right: auto;
-  margin-left: auto;
+  font-size:8px;
+  margin-right: 6vw;
+  margin-left: 6vw;
 }
 .md-macbook-pro .md-lid {
   width: 45em;
@@ -90,6 +90,4 @@
   background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
 
-.laptop-wrapper{
-    position:relative;
-}
+
