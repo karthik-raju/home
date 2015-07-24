@@ -36,41 +36,9 @@ body{
 	right:20px;
 
 }
-
-.img-social{
-	display:inline-block;
-	height:20px;
-	width:20px;
-}
-.fb{
-	background:url("images/fb.png");
-}
-.fb:hover{
-	background:url("images/fb-active.png");
-}
-.qu{
-	background:url("images/twitter.png");
-}
-.qu:hover{
-	background:url("images/twitter-active.png");
-}
-.gh{
-	background:url("images/linkedin.png");
-}
-.gh:hover{
-	background:url("images/linkedin-active.png");
-}
-.sc{
-	background:url("images/wordpress.png");
-}
-.sc:hover{
-	background:url("images/wordpress-active.png");
-}
-.ln{
-	background:url();
-}
-.ln:hover{
-	background:url();
+.social img{
+	width:18px;
+	margin-left:20px;
 }
 
 
@@ -154,10 +122,20 @@ body{
   	box-shadow:         0px 0.5px 11px -0.5px #ccc;
 } 
 
-.under{
-	position:relative;
-	z-index:4;
+.banner{
+	display:block;
+	width: 22vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
 }
+.banner h2{
+	text-align: center;
+	float:right;
+	margin-top: 15px;
+}
+
 
 /*For iPhone 4 and iPhone5 support*/
 
