@@ -15,7 +15,7 @@ body{
 .home{
 	height: 100vh;
 	background-color: #222;
-	background-image: url(http://karthik-raju.github.io/home/images/cover.png);
+	background-image: url(cover.png);
 	background-position:50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -103,7 +103,7 @@ body{
 }
 
 .laptop-wrapper{
-	margin-top: 50px;
+	margin-top: 18px;
 	display:block;
 }
 

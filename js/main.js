@@ -4,7 +4,8 @@ var counter = 0;
 $(document).ready(function(){
 	setInterval ('cursorAnimation()', 850);
 	element = $('#command-1');
-	first();
+	$('.about-me').scroll(first());
+
 });
 
 function cursorAnimation(){
