@@ -27,6 +27,21 @@ body{
 	 z-index:0;
 }
 
+
+.social{
+	position:absolute;
+	z-index:4;
+	margin-top:20px;
+	margin-right:auto;
+	right:20px;
+
+}
+.social img{
+	width:18px;
+	margin-left:20px;
+}
+
+
 .overlay{
 	height: 100vh;
 	background-image: url(http://karthik-raju.github.io/home/images/pattern.png);
@@ -109,6 +124,11 @@ body{
 
 .separation-bar:focus;
 .separation-bar:
+
+.under{
+	position:relative;
+	z-index:4;
+}
 
 /*For iPhone 4 and iPhone5 support*/
 
