@@ -54,31 +54,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		margin-top:15vh;
 }
 
-/*For iPhone 4 and iPhone5*/
-
-@media(max-width:350px) and (orientation:portrait){
-	#link-wrapper{
-		margin-top:8vh;
-	}	
-
-	.introduction h1{
-	font-size: 3em;
-	}
-	
-}
-
-@media (max-height:325px) and (orientation:landscape){
-	#link-wrapper{
-		margin-top:8vh;
-	}	
-
-	.introduction{
-	 top: 20%;
-	}
-}
-
-
-
 .scroll-down{
 	border:2px solid #fff;
 	border-radius: 20px;
@@ -111,4 +86,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .laptop-wrapper{
 	margin-top: 30px;
 	margin-left: 30px;
+	display:block;
+}
+
+/*For iPhone 4 and iPhone5 support*/
+
+@media(max-width:350px) and (orientation:portrait){
+	#link-wrapper{
+		margin-top:8vh;
+	}	
+
+	.introduction h1{
+	font-size: 3em;
+	}
+	
+}
+
+@media (max-height:325px) and (orientation:landscape){
+	#link-wrapper{
+		margin-top:8vh;
+	}	
+
+	.introduction{
+	 top: 20%;
+	}
 }
