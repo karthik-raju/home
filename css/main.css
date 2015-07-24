@@ -15,7 +15,7 @@ body{
 .home{
 	height: 100vh;
 	background-color: #222;
-	background-image: url(cover.png);
+	background-image: url(https://raw.githubusercontent.com/karthik-raju/home/gh-pages/images/cover.png);
 	background-position:50% 50%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
