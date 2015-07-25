@@ -8,9 +8,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 
-body{
-	min-height:542px; 
-}
 
 .home{
 	height: 100vh;
@@ -115,7 +112,7 @@ body{
 	height:auto;
 }
 
-.laptop-wrapper{
+#laptop-wrapper{
 	margin-top: 18px;
 	display:block;
 }

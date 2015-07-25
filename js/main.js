@@ -1,11 +1,18 @@
 var str = 'python';
 var counter = 0;
+var executed = false;
 
 $(document).ready(function(){
 	setInterval ('cursorAnimation()', 850);
 	element = $('#command-1');
-	$('.about-me').scroll(first());
-
+	$(window).scroll(function (event) {
+		if(!executed){
+    		var scroll = $(window).scrollTop();
+		}
+    if(scroll > 300){
+    	first();
+    };
+});
 });
 
 function cursorAnimation(){
@@ -17,6 +24,7 @@ function cursorAnimation(){
 }
 
 function first(){
+	executed = true;
 	element.html(str.substr(0, counter++));
 	if (counter < str.length + 1){
 		setTimeout('first()', 90);
