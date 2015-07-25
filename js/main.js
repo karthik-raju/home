@@ -6,10 +6,11 @@ $(document).ready(function(){
 	setInterval ('cursorAnimation()', 850);
 	element = $('#command-1');
 	$(window).scroll(function (event) {
+		var scroll = $(window).scrollTop();
 		if(!executed){
-    		var scroll = $(window).scrollTop();
+    		var temp = scroll;
 		}
-    if(scroll > 300){
+    if(temp > 300){
     	first();
     };
 });
