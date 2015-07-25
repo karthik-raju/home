@@ -211,7 +211,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 @media(max-width: 506px){
 	.content-wrapper h1{
-		font-size: 1.31em;
+		font-size: 1.28em;
+		font-weight: 400;
 		}
 }
 /*For iPhone 4 and iPhone5 support*/
