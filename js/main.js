@@ -10,7 +10,7 @@ $(document).ready(function(){
 		if(!executed){
     		var temp = scroll;
 		}
-    if(temp > 300){
+    if(temp > 250){
     	first();
     };
 });
