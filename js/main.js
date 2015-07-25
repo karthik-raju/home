@@ -7,10 +7,14 @@ $(document).ready(function(){
 	element = $('#command-1');
 	$(window).scroll(function (event) {
 		var scroll = $(window).scrollTop();
+		var height = document.documentElement.clientHeight;
+		var width = document.documentElement.clientWidth;
 		if(!executed){
-    		var temp = scroll;
+    		var temp_scroll = scroll;
+    		var temp_height = height;
+    		var temp_width = width;
 		}
-    if(temp > 250){
+    if(temp_scroll > ((temp_width * 0.3506)+53)){
     	first();
     };
 });
