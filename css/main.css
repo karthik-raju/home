@@ -199,7 +199,7 @@ body{
 
 /*For iPhone 4 and iPhone5 support*/
 
-@media(max-width:350px) and (orientation:portrait){
+/*@media(max-width:350px) and (orientation:portrait){
 	#link-wrapper{
 		margin-top:8vh;
 	}	
@@ -218,4 +218,4 @@ body{
 	.introduction{
 	 top: 20%;
 	}
-}
+}*/      
