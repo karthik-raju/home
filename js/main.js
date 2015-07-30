@@ -14,7 +14,7 @@ $(document).ready(function(){
     		var temp_height = height;
     		var temp_width = width;
 		}
-    if(temp_scroll > ((temp_width * 0.3506)+53)){
+    if(temp_scroll > ((temp_width * 0.3506)+58)){
     	first();
     };
 });
