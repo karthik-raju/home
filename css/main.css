@@ -195,8 +195,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .content-wrapper h3{
 	font-weight: 100;
 	font-size: 2em;
-	margin-left: 15%;
-	margin-right: 3%;
+	margin-left: 13%;
+	margin-right: 2%;
 }
 
 .row{
@@ -217,14 +217,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .arrow-container{
-	width:3.5vw;
-	height:3.5vw;
+	width:4vw;
+	height:4vw;
 	position:fixed;
 	z-index: 6;
-	background-color: #4F4F4F;
-	border-radius: 1vw;
+	border: 1px solid #4F4F4F;
+	border-radius: 50%;
 	opacity: .7;
-	margin-left: 92vw;
+	margin-left: 90vw;
 	margin-top: 85vh;
 }
 
@@ -235,8 +235,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	position:fixed;
 	border-left: 1vw solid transparent;
 	border-right:1vw solid transparent;
-	border-bottom: 1.5vw solid white;
+	border-bottom: 1.8vw solid #4F4F4F;
 	opacity: .9;
+	text-align: center;
 }
 
 /*media queries for shrinking/mobile*/
