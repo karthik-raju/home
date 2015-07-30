@@ -253,7 +253,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		font-size: 2.5em;
 		}
 		.content-wrapper h3{
-		font-size: 1.5em;
+		font-size: 1.7em;
 		}
 
 }
@@ -263,7 +263,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		font-size: 2em;
 		}
 		.content-wrapper h3{
-		font-size: 1em;
+		font-size: 1.3em;
 		}
 }
 @media(max-width: 506px){
@@ -272,7 +272,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		font-weight: 400;
 		}
 		.content-wrapper h3{
-		font-size: .28em;
+		font-size: 1em;
 		}
 }
 /*For iPhone 4 and iPhone5 support*/
