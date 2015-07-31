@@ -14,6 +14,12 @@ $(document).ready(function(){
     		var temp_height = height;
     		var temp_width = width;
 		}
+	if (scroll < 403){
+		$('.arrow-container').css('visibility', 'hidden');
+	}
+	if (scroll > 403){
+		$('.arrow-container').css('visibility', 'visible')
+	}
     if(temp_scroll > ((temp_width * 0.3506)+58)){
     	first();
     };
