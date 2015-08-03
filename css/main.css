@@ -230,19 +230,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	visibility: hidden;
 }
 
-.arrow{
-	display:block;
-	height:0px;
-	width:0px;
-	position:fixed;
-	border-left: 1vw solid transparent;
-	border-right:1vw solid transparent;
-	border-bottom: 1.8vw solid #4F4F4F;
-	opacity: .6;
-	left:3.6vw;
-	margin-top: .7vw;
+.arrow-container p{
+	font-size: 2.4vw;
+	color: #4F4F4F;
+	font-weight: 100; 
+	text-align: center;
 }
-
 
 .arrow-container:hover{
 	opacity:1;
